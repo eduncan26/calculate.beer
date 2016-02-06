@@ -1,11 +1,3 @@
-# Java
-*.class
-*.jar
-*.war
-*.ear
-/target
-
-# Front End
-src/main/resources/public/node_modules
-src/main/resources/public/jspm_packages
-src/main/resources/public/dist
+/node_modules
+/jspm_packages
+/dist
