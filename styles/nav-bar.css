@@ -1,3 +1,12 @@
+
+nav.navbar-default {
+  background-color: #3F51B5;
+  border-color: #3F51B5;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+}
+
 .hamburger {
   width: 18px;
   height: 18px;
@@ -12,7 +21,7 @@
 .hamburger span {
   display: block;
   position: absolute;
-  height: 3px;
+  height: 2px;
   width: 100%;
   background: #fff;
   opacity: 1;
@@ -29,7 +38,7 @@
 
 
 .hamburger span:nth-child(1) {
-	top: 0px;
+	top: 5px;
 	-webkit-transform-origin: left center;
 	-moz-transform-origin: left center;
 	-o-transform-origin: left center;
@@ -37,7 +46,7 @@
 }
 
 .hamburger span:nth-child(2) {
-  top: 7px;
+  top: 9px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -45,7 +54,7 @@
 }
 
 .hamburger span:nth-child(3) {
-  top: 14px;
+  top: 13px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -57,7 +66,7 @@
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  top: 1px;
+  top: 3px;
   left: 3px;
 }
 
@@ -71,6 +80,6 @@
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  top: 14px;
+  top: 16px;
   left: 3px;
 }

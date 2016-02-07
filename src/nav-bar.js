@@ -9,8 +9,8 @@ export class NavBar {
 	constructor(eventEmitter) {
 		this.eventEmitter = eventEmitter;
 
-		this.eventEmitter.subscribe('nav-toggle:open', event => { this.navOpen = true; });
-		this.eventEmitter.subscribe('nav-toggle:close', event => { this.navOpen = false; });
+		this.eventEmitter.subscribe('left-nav:open', event => this.navOpen = true);
+		this.eventEmitter.subscribe('left-nav:close', event => this.navOpen = false);
 	}
 
 	toggleMenu(event) {

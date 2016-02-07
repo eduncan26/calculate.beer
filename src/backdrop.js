@@ -8,11 +8,11 @@ export class Backdrop {
 	constructor(eventEmitter) {
 		this.eventEmitter = eventEmitter;
 
-		eventEmitter.subscribe('nav-toggle:open', event => { this.isOn = true; });
-		eventEmitter.subscribe('nav-toggle:close', event => { this.isOn = false; });
+		eventEmitter.subscribe('left-nav:open', event => this.isOn = true);
+		eventEmitter.subscribe('left-nav:close', event => this.isOn = false);
 	}
 
 	closeNav(event) {
-		this.eventEmitter.publish('nav-toggle:close', event);
+		this.eventEmitter.publish('left-nav:close', event);
 	}
 }

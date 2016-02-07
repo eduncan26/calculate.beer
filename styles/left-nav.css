@@ -1,16 +1,15 @@
 .left-nav {
-	padding-top: 50px;
 	position: fixed;
 	z-index: 1000;
-	top: 0;
+	top: 50px;
 	right: 0;
 	bottom: 0;
-	left: -1000px;
+	left: -100%;
 	height: 100%;
 	width: 100%;
 	-webkit-transition: left 600ms;
 	transition: left 600ms;
-	background-color: white
+	background-color: white;
 }
 
 @media (min-width: 768px) {
@@ -28,4 +27,9 @@
 
 .left-nav.open {
 	left: 0;
+}
+
+.left-nav ul {
+	list-style: none;
+	padding: 15px 0 0 30px;
 }

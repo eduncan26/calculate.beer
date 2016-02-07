@@ -1,0 +1,7 @@
+button.btn.btn-hamburger,
+button.btn.btn-hamburger:focus,
+button.btn.btn-hamburger:hover {
+  background-color: #3F51B5;
+  border-color: #3F51B5;
+}
+
