@@ -1,0 +1,31 @@
+.left-nav {
+	padding-top: 50px;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: -1000px;
+	height: 100%;
+	width: 100%;
+	-webkit-transition: left 600ms;
+	transition: left 600ms;
+	background-color: white
+}
+
+@media (min-width: 768px) {
+	.left-nav {
+		width: 45%;
+	}
+}
+
+@media (min-width: 992px) {
+	.left-nav {
+		width: 25%;
+	}
+}
+
+
+.left-nav.open {
+	left: 0;
+}

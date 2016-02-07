@@ -2,5 +2,14 @@
   "rules": {
     "no-var": 0,
     "no-console": 0
+  },
+  "baseConfig": {
+  	"parser": "babel-eslint",
+  	"ecmaFeatures": {
+  	  "modules": true
+  	}
+  },
+  "ecmaFeatures": {
+  	"modules": true
   }
 }
