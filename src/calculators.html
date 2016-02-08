@@ -1,0 +1,14 @@
+<template>
+	<div class="container-fluid">
+		<div class="calculators">
+			<h2>calculators <small>lorem ipsum</small></h2>
+
+			<div class="calculator" 
+				repeat.for="calc of calculators"
+				css="background: ${$first ? '#ffc400' : '#ffd740
+'};height: ${$first ? '250px': '125px'}; width: ${$first ? '250px' : '125px'};">
+					<span class="name">${calc.name}</span>
+			</div>
+		</div>
+	</div>
+</template>

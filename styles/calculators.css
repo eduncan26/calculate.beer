@@ -1,0 +1,23 @@
+.calculators {
+	padding: 15px;
+	max-width: 700px;
+	min-width: 300px;
+}
+
+.calculators > .calculator {
+	float: left;
+	height: 125px;
+	width: 125px;
+	display: inline-block;
+	padding: 5px;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+
+.calculators > .calculator > div {
+	height: calc(100% - 19px);
+	width: 100%;
+	background-color: #fff;
+	position: relative;
+}
